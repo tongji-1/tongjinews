@@ -13,7 +13,7 @@ plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
 
 if __name__ == "__main__":
     # 替换为您的Excel文件路径
-    file_path = 'all_summaries.xlsx'
+    file_path = 'summaries_gpt.xlsx'
 
     # 1. 数据加载与预处理
     original_data, scaled_data = load_and_preprocess_data(file_path)
